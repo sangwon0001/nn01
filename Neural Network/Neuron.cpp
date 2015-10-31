@@ -17,6 +17,7 @@ Neuron::Neuron(int num_of_input)
 		input_weight[i] = -0.2;
 	this->threshold = 0;
 }
+
 Neuron::~Neuron()
 {
 	delete[] input_weight;

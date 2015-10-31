@@ -1,6 +1,7 @@
 #pragma once
 //http://redcarrot.tistory.com/12
-// http://blog.secmem.org/197
+//http://blog.secmem.org/197
+//http://blog.secmem.org/199
 #define INIT_WEIGHT -0.3
 class Neuron
 {

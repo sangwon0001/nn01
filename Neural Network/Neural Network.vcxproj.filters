@@ -18,6 +18,9 @@
     <ClInclude Include="Neuron.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Neuron.cpp">

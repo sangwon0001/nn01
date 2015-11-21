@@ -142,7 +142,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="main.h" />
     <ClInclude Include="Neuron.h" />
   </ItemGroup>
   <ItemGroup>

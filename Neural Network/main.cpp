@@ -29,7 +29,7 @@ void main()
 
 	// Sample Sets //
 	double sample_input[4][2] = { { 0,0 },{ 0,1 },{ 1,0 },{ 1,1 } };
-	double sample_output[4] = {1, 0, 0, 0 };
+	double sample_output[4] = {1, 0, 0, 1 };
 
 	for (int i = 0; i < 5000; i++)
 	{

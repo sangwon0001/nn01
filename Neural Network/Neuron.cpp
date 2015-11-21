@@ -73,6 +73,10 @@ Neuron::Neuron(int num_of_input, double alpha)
 	}
 
 }
+Neuron::Neuron(int index, int num_of_input, double alpha): Neuron(num_of_input,alpha)
+{
+	this->id_num = index;
+}
 Neuron::~Neuron()
 {
 	delete[] input_weight;

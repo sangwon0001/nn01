@@ -71,6 +71,7 @@ Neuron::Neuron(int num_of_input, double alpha)
 		input_weight[i] = ((double)rand() / RAND_MAX) * 2 - 1; // -1 ~ 1 Random
 		weight_error[i] = 0.0;
 	}
+	
 
 }
 Neuron::Neuron(int index, int num_of_input, double alpha): Neuron(num_of_input,alpha)

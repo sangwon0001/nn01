@@ -57,6 +57,7 @@ void Neuron::fix()
 		weight_error[i] = 0.0;
 	}
 
+
 }
 //*/
 Neuron::Neuron(int num_of_input, double alpha)
